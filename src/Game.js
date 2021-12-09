@@ -5,6 +5,7 @@ import firebase from './firebaseConfig.js';
 import TriviaQuestion from './TriviaQuestion.js';
 
 const Game = ({ listOfUsers, roomCode, questionsArray }) => {
+  
   const [roundCounter, setRoundCounter] = useState(0);
   const [turnCounter, setTurnCounter] = useState(0);
   const [answer, setAnswer] = useState([]);

@@ -1,9 +1,10 @@
 @import './setup.scss';
 @import './variables.scss';
 @import './home.scss';
-@import './lobby';
-@import './game';
-@import './gameSummary';
+@import './lobby.scss';
+@import './game.scss';
+@import './gameSummary.scss';
+@import './leaderboard.scss';
 
 html {
   font-size: 62.5%;

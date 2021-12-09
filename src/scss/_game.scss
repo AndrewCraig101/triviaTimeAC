@@ -1,52 +1,53 @@
-.gamePage {
-  width: 100%;
-  h3 {
-    max-width: 600px;
-    text-align: center;
-    font-family: $header-font;
-    margin: 2rem auto;
+  .gamePage {
+    width: 100%;
+    
+    h3 {
+      max-width: 600px;
+      text-align: center;
+      font-family: $header-font;
+      margin: 2rem auto;
+    }
   }
-}
 
-.swal-centered .swal-text {
-  text-align: center;
-}
+  .swal-centered .swal-text {
+    text-align: center;
+  }
 
-.currentUser {
-  display: flex;
-  justify-content: space-between;
-  font-family: $body-font;
-  color: $lime-green;
-  text-shadow: 0 0 5px $turquoise, 0 0 10px $turquoise, 0 0 20px $turquoise, 0 0 40px $turquoise;
-  font-size: 3rem;
-}
+  .currentUser {
+    display: flex;
+    justify-content: space-around;
+    font-family: $body-font;
+    color: $lime-green;
+    text-shadow: 0 0 5px $turquoise, 0 0 10px $turquoise, 0 0 20px $turquoise, 0 0 40px $turquoise;
+    font-size: 3rem;
+  }
 
-.triviaChoiceContainer {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 900px;
-  margin: 0 auto;
-}
+  .triviaChoiceContainer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 
-.triviaChoice {
-  padding: 4rem;
-  color: $navy;
-  border: 1px solid black;
-  margin: 20px;
-  flex: 1 1 410px;
-  background-color: $pale-green;
-  font-family: $body-font;
-  font-size: 2.5rem;
-  border: 4px solid $white;
-  border-radius: 10rem;
-  box-shadow: 0 0 0.5rem $white, inset 0 0 0.5rem $white;
-}
+  .triviaChoice {
+    padding: 4rem;
+    color: $navy;
+    border: 1px solid black;
+    margin: 20px;
+    flex: 1 1 410px;
+    background-color: $pale-green;
+    font-family: $body-font;
+    font-size: 2.5rem;
+    border: 4px solid $white;
+    border-radius: 10rem;
+    box-shadow: 0 0 0.5rem $white, inset 0 0 0.5rem $white;
+  }
 
-.clockTimer {
-  display: flex;
-  justify-content: center;
-  font-family: $body-font;
-  color: $lime-green;
-  text-shadow: 0 0 5px $turquoise, 0 0 10px $turquoise, 0 0 20px $turquoise, 0 0 40px $turquoise;
-  font-size: 3rem;
-}
+  .clockTimer {
+    display: flex;
+    justify-content: center;
+    font-family: $body-font;
+    color: $lime-green;
+    text-shadow: 0 0 5px $turquoise, 0 0 10px $turquoise, 0 0 20px $turquoise, 0 0 40px $turquoise;
+    font-size: 3rem;
+  }

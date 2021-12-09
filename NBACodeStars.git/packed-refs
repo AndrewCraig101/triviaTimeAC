@@ -1,7 +1,0 @@
-# pack-refs with: peeled fully-peeled sorted 
-124b75aac302ddff37749ab037498d892cb00b20 refs/heads/andrews-code
-986c92524ebdf5d679f8429cc4d38c556a6bf602 refs/heads/banner-upgrade
-6134f34e39a97ac971a0d0662162b1e876bd2513 refs/heads/dev2k/fixes
-fa045b611d48187725fccfeff093a3253d33e665 refs/heads/main
-7c90b98159b9d3e2535ec25c322821939b307737 refs/heads/master
-234983d50141965bafc49f7465b6ac61e770a48d refs/heads/toggleButton

@@ -1,50 +1,51 @@
-.summaryWrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-}
-
-h2 {
-  font-family: $header-font;
-  color: $lime-green;
-  font-size: 5rem;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.summaryPageLinks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 900px;
-
-  .button {
-    cursor: pointer;
-    flex: 0 1 240px;
-    white-space: nowrap;
+  .summaryWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
   }
-}
 
-.userPoints {
-  font-size: 2rem;
-  text-align: center;
-  margin: 0px;
-  color: $white;
-  font-family: $body-font;
-}
+  h2 {
+    font-family: $header-font;
+    color: $lime-green;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+  }
 
-.playerContainer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+  .summaryPageLinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
 
-.userProfileName, .userPoints {
-  font-family: $body-font;
-}
+    .button {
+      
+      cursor: pointer;
+      flex: 0 1 240px;
+      white-space: nowrap;
+    }
+  }
+
+  .userPoints {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0px;
+    color: $white;
+    font-family: $body-font;
+  }
+
+  .playerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .userProfileName, .userPoints {
+    font-family: $body-font;
+  }

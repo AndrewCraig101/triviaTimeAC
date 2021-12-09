@@ -1,0 +1,54 @@
+.leaderboardMain {
+
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+h3 {
+    font-size: 3rem;
+    margin: 1rem 0;
+    text-transform: uppercase;
+    max-width: 1000px;
+}
+h4 {
+    margin: 0.5rem 0;
+}
+p {
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+}
+.leaderList {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 80%;
+    list-style-type: none;
+}
+li {
+    flex: 0 1 200px;
+    border: 2px $lime-green solid;
+    margin: 20px;
+    padding: 5px 10px;
+}
+
+.quit {
+    align-self: center;
+}
+
+}
+
+.leaderboardPoints {
+margin: 0;
+font-size: 3rem;
+font-family: $body-font;
+}
+
+@media (max-width: 480px) {
+.leaderboardMain {
+    h2 {
+    font-size: calc(1.16rem + 8vw);
+    }
+}
+}
